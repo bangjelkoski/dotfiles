@@ -6,19 +6,19 @@ module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
-    updateChannel: 'stable',
+    updateChannel: "stable",
 
     // default font size in pixels for all tabs
-    fontSize: 13,
+    fontSize: 15,
 
     // font family with optional fallbacks
-    fontFamily: 'JetBrains Mono, monospace',
+    fontFamily: "JetBrains Mono, monospace",
 
     // default font weight: 'normal' or 'bold'
-    fontWeight: 'normal',
+    fontWeight: "normal",
 
     // font weight for bold characters: 'normal' or 'bold'
-    fontWeightBold: 'bold',
+    fontWeightBold: "bold",
 
     // line height as a relative unit
     lineHeight: 1.25,
@@ -27,68 +27,68 @@ module.exports = {
     letterSpacing: 0,
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
-    cursorColor: 'rgba(192,86,33,0.8)',
+    cursorColor: "rgba(192,86,33,0.8)",
 
     // terminal text color under BLOCK cursor
-    cursorAccentColor: '#000',
+    cursorAccentColor: "#000",
 
     // `'BEAM'` for |, `'UNDERLINE'` for _, `'BLOCK'` for █
-    cursorShape: 'UNDERLINE',
+    cursorShape: "UNDERLINE",
 
     // set to `true` (without backticks and without quotes) for blinking cursor
     cursorBlink: false,
 
     // color of the text
-    foregroundColor: '#EDF2F7',
+    foregroundColor: "#EDF2F7",
 
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: '#0d1520',
+    backgroundColor: "#0d1520",
 
     // terminal selection color
-    selectionColor: 'rgba(248,28,229,0.3)',
+    selectionColor: "rgba(248,28,229,0.3)",
 
     // border color (window, tabs)
-    borderColor: '#2D3748',
+    borderColor: "#2D3748",
 
     // custom CSS to embed in the main window
-    css: '',
+    css: "",
 
     // custom CSS to embed in the terminal window
-    termCSS: '',
+    termCSS: "",
 
     // if you're using a Linux setup which show native menus, set to false
     // default: `true` on Linux, `true` on Windows, ignored on macOS
-    showHamburgerMenu: '',
+    showHamburgerMenu: "",
 
     // set to `false` (without backticks and without quotes) if you want to hide the minimize, maximize and close buttons
     // additionally, set to `'left'` if you want them on the left, like in Ubuntu
     // default: `true` (without backticks and without quotes) on Windows and Linux, ignored on macOS
-    showWindowControls: '',
+    showWindowControls: "",
 
     // custom padding (CSS format, i.e.: `top right bottom left`)
-    padding: '12px 14px',
+    padding: "12px 14px",
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
     // an array here instead of a color map object
     colors: {
-      black: '#1A202C',
-      red: '#E53E3E',
-      green: '#38A169',
-      yellow: '#D69E2E',
-      blue: '#3182CE',
-      magenta: '#D53F8C',
-      cyan: '#38A169',
-      white: '#EDF2F7',
-      lightBlack: '#A0AEC0',
-      lightRed: '#FC8181',
-      lightGreen: '#68D391',
-      lightYellow: '#F6E05E',
-      lightBlue: '#63B3ED',
-      lightMagenta: '#F687B3',
-      lightCyan: '#4FD1C5',
-      lightWhite: '#F7FAFC',
+      black: "#1A202C",
+      red: "#E53E3E",
+      green: "#38A169",
+      yellow: "#D69E2E",
+      blue: "#3182CE",
+      magenta: "#D53F8C",
+      cyan: "#38A169",
+      white: "#EDF2F7",
+      lightBlack: "#A0AEC0",
+      lightRed: "#FC8181",
+      lightGreen: "#68D391",
+      lightYellow: "#F6E05E",
+      lightBlue: "#63B3ED",
+      lightMagenta: "#F687B3",
+      lightCyan: "#4FD1C5",
+      lightWhite: "#F7FAFC",
     },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
@@ -103,11 +103,11 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: '/bin/zsh',
+    shell: "/bin/zsh",
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
-    shellArgs: ['--login'],
+    shellArgs: ["--login"],
 
     // for environment variables
     env: {},
@@ -128,7 +128,7 @@ module.exports = {
     // choose either `'vertical'`, if you want the column mode when Option key is hold during selection (Default)
     // or `'force'`, if you want to force selection regardless of whether the terminal is in mouse events mode
     // (inside tmux or vim with mouse mode enabled for example).
-    macOptionSelectionMode: 'vertical',
+    macOptionSelectionMode: "vertical",
 
     // URL to custom bell
     // bellSoundURL: 'http://example.com/bell.mp3',
@@ -158,4 +158,3 @@ module.exports = {
     // 'window:devtools': 'cmd+alt+o',
   },
 };
-
